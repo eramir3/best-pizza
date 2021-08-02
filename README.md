@@ -24,5 +24,5 @@ Para ingresar a la aplicación se deben utilizar las siguientes credenciales:
   - Usuario: jgonzalez@gonzalez.com
     Password: jgonzalez123
 
-También se encuentra un documento adjunto en pdf con una explicación mas detallada del desarrollo. 
+También se encuentra el documento adjunto BestPizza.pdf con una explicación mas detallada del desarrollo. 
     
