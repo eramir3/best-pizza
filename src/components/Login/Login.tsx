@@ -32,8 +32,8 @@ const Login: React.FC = () => {
 
   const submitHandler = (event: React.FormEvent<EventTarget>) => {
     event.preventDefault();
-    const username = usernameInputRef.current.value;
-    const password = passwordInputRef.current.value;
+    const username = usernameInputRef.current.value.trim();
+    const password = passwordInputRef.current.value.trim();
     authenticateUser(username, password);
   }
 
