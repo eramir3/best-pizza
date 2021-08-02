@@ -15,11 +15,11 @@ El proyecto fue creado bajo las siguientes caracteristicas:
 # Uso de la aplicacion
 Para ingresar a la aplicacion se deben utilizar las siguientes credenciales:
   
-  - Usuario pperez@perez.com 
-  - Password: pperezs123
+  - Usuario: pperez@perez.com 
+    Password: pperezs123
     
   - Usuario: jgonzalez@gonzalez.com
-  - Password: jgonzalez123
+    Password: jgonzalez123
 
 Tambien se encuentra un documento adjunto en word con una explicación mas detallada del desarrollo. 
     
