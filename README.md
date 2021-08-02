@@ -7,6 +7,8 @@ El proyecto fue creado con las siguientes tecnologías:
   - React router dom
   - React css modules
   - React hooks
+
+Se utilizó la aproximacion de mobile first para desarrollar los componentes
   
 # Pasos para desplegar la aplicacion
   - Clonar la aplicacion de github
@@ -21,5 +23,5 @@ Para ingresar a la aplicacion se deben utilizar las siguientes credenciales:
   - Usuario: jgonzalez@gonzalez.com
     Password: jgonzalez123
 
-Tambien se encuentra un documento adjunto en word con una explicación mas detallada del desarrollo. 
+Tambien se encuentra un documento adjunto en pdf con una explicación mas detallada del desarrollo. 
     
