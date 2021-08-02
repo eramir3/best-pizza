@@ -2,7 +2,7 @@
 Best pizza prueba robin food
 
 # Caracteristicas del Proyecto
-El proyecto fue creado bajo las siguientes caracteristicas:
+El proyecto fue creado con las siguientes herramientas:
   - React js
   - React router dom
   - React css modules
