@@ -1,0 +1,43 @@
+.content-container {
+  width: 100%;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+.logout-link {
+  text-decoration: none;
+  color: grey;
+  font-size: 0.5rem;
+  padding-top: 0.2rem;
+  margin-right: 1rem;
+}
+
+.logout {
+  display: flex;
+  align-items: center; 
+}
+
+.logout span {
+  padding-top: 5px;
+}
+
+.lock {
+  height: 1rem;
+}
+
+
+@media (min-width: 1366px) {
+
+  .content-container {
+    width: 55%;
+  }
+
+  .logout-link {
+    margin-right: 4.5rem;
+  }
+}

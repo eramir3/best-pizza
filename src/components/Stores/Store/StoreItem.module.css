@@ -1,0 +1,88 @@
+.store {
+  margin: 0.5rem 0;
+}
+
+.store-imge {
+  width: 6rem;
+  margin-right: 0rem;
+}
+
+.store-name {
+  font-size: 0.55rem;
+  font-weight: 500;
+  margin: 0.5rem 0 0 0;
+  text-decoration: none;
+}
+
+.store-address {
+  font-size: 0.4rem;
+  margin: 0.2rem 0 0 0;
+  color: gray;
+  text-decoration: none;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 180px;
+  height: 150px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  color: black;
+}
+
+.flip-card-back {
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.text-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 45%;
+  left: 42%;
+  transform: translate(-50%, -50%);
+}
+
+.store-image-dark {
+  filter: brightness(65%);
+}
+
+@media (min-width: 414px) {
+  .store-imge {
+    margin-right: 1rem;
+  }
+}
+
+@media (min-width: 1366px) {
+  .store-imge {
+    margin-right: 1.2rem;
+  }
+}

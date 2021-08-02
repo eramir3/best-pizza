@@ -1,0 +1,54 @@
+.input-container {
+  display: inline-flex;
+  flex: 1 1 60px;
+  position: relative;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 0.5rem;
+  width: 13rem;
+}
+
+.input {
+  border: 0;
+  padding: 0.5rem;
+  flex: 1;
+  outline: none;
+  font-size: 0.7rem;
+}
+
+::placeholder { 
+  color: rgb(182, 175, 175);
+  opacity: 1; 
+}
+
+:-ms-input-placeholder { 
+  color: rgb(182, 175, 175);
+}
+
+::-ms-input-placeholder { 
+  color: rgb(182, 175, 175);
+}
+
+i {
+  padding-right: 50px;
+  background-repeat: no-repeat;
+  background-position: right 50% bottom 50%;
+  background-size: 45%;
+}
+
+.user {
+  background-image: url('../../assets/images/IU/ic_usuario.png');
+}
+
+.lock {
+  background-image: url('../../assets/images/IU/ic_contrasena.png');
+}
+
+
+@media (min-width: 1366px) {
+
+  .input-container {
+    width: 18rem;
+  }
+}

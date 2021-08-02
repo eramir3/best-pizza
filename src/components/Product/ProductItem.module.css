@@ -1,0 +1,29 @@
+.product {
+  display: flex;
+  align-items: center;
+  border: 0.1px solid lightgray;
+  padding-left: 0.8rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.product > img {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 10px;
+}
+
+.product > p {
+  font-size: 0.7rem;
+  padding-left: 10px;
+}
+
+.zoom {
+  transition: transform .2s;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.02); 
+  -webkit-transform: scale(1.02); 
+  transform: scale(1.02); 
+}

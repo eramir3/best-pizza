@@ -1,0 +1,40 @@
+.image-container {
+  display: none;
+}
+
+.pizza-img {
+  display: none;
+}
+
+.logo-img {
+  width: 4rem;
+  margin-right: 14rem;
+}
+.logo-img-visible {
+  visibility: visible;
+}
+
+.logo-img-invisible {
+  visibility: hidden;
+  cursor: none;
+}
+
+@media (min-width: 1366px) {
+  
+  .image-container {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-flow: column;
+      width: 45%;
+      float: left;
+      padding-top: 2rem;
+  }
+
+  .pizza-img {
+    display: block;
+    position: relative;
+    height: 23rem;
+    width: 23rem;
+  }
+}
