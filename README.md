@@ -7,6 +7,8 @@ El proyecto fue creado con las siguientes tecnologías:
   - React router dom
   - React css modules
   - React hooks
+  - 
+Se utilizó la aproximacion de mobile first para desarrollar los componentes
   
 # Pasos para desplegar la aplicacion
   - Clonar la aplicacion de github
