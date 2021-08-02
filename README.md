@@ -1,7 +1,7 @@
 # Best Pizza
 Best pizza prueba robin food
 
-# Caracteristicas del Proyecto
+# Características del Proyecto
 El proyecto fue creado con las siguientes tecnologías:
   - React js
   - React router dom
@@ -10,13 +10,13 @@ El proyecto fue creado con las siguientes tecnologías:
 
 Se utilizó la aproximacion de mobile first para desarrollar los componentes
   
-# Pasos para desplegar la aplicacion
+# Pasos para desplegar la aplicación
   - Clonar la aplicacion de github
   - Correr el comando npm install en la carpeta del proyecto. 
   - Correr el comando npm start. Esto iniciará el servidor en la ip http://localhost:3000
 
-# Uso de la aplicacion
-Para ingresar a la aplicacion se deben utilizar las siguientes credenciales:
+# Uso de la aplicación
+Para ingresar a la aplicación se deben utilizar las siguientes credenciales:
   
   - Usuario: pperez@perez.com 
     Password: pperezs123
@@ -24,5 +24,5 @@ Para ingresar a la aplicacion se deben utilizar las siguientes credenciales:
   - Usuario: jgonzalez@gonzalez.com
     Password: jgonzalez123
 
-Tambien se encuentra un documento adjunto en pdf con una explicación mas detallada del desarrollo. 
+También se encuentra un documento adjunto en pdf con una explicación mas detallada del desarrollo. 
     
