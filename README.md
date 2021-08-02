@@ -8,10 +8,10 @@ El proyecto fue creado con las siguientes tecnologías:
   - React css modules
   - React hooks
 
-Se utilizó la aproximacion de mobile first para desarrollar los componentes
+Se utilizó la aproximación de mobile first para desarrollar los componentes
   
 # Pasos para desplegar la aplicación
-  - Clonar la aplicacion de github
+  - Clonar la aplicación de github
   - Correr el comando npm install en la carpeta del proyecto. 
   - Correr el comando npm start. Esto iniciará el servidor en la ip http://localhost:3000
 
